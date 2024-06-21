@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Highlighter</title>
+    <style>
+        body {
+            width: 600px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            background-color: #a1d6ff;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Highlighted Text:</h2>
+    <p id="highlightedText"></p>
+    <h2>HTML Content:</h2>
+    <pre id="highlightedHTML"></pre>
+    <h2>Start Element Info:</h2>
+    <pre id="startElementInfo"></pre>
+    <h2>End Element Info:</h2>
+    <pre id="endElementInfo"></pre>
+    <h2>Parent Elements (2 levels):</h2>
+    <pre id="parentsInfo"></pre>
+    <script src="popup.js"></script>
+</body>
+</html>
